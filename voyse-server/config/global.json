@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "Voyse": {
+            "applicationId": "PiBUwxglYnMnqSCP2hEJXIqzKvqB5efZxu7LE6fJ", 
+            "masterKey": "vpUa8tzxWaTrC8513JdkF9g45QRpnGx6bx9NprVF"
+        }, 
+        "_default": {
+            "link": "Voyse"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.16"
+    }
+}

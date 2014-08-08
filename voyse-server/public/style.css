@@ -1,0 +1,228 @@
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	border:none;
+	outline:none;
+	-webkit-font-smoothing:antialiased;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-text-size-adjust:none;
+}
+
+html,body {
+	width:100%;
+	height:100%;
+	position:relative;
+	font-family:"Helvetica Neue";
+}
+
+a {
+	color:#fff;
+}
+
+h2 {
+	font-weight:400;
+	padding:0;
+	margin:0;
+}
+
+p {
+	padding:0;
+	margin:0;
+}
+
+#top {
+	height:840px;
+	min-height:840px;
+	width:100%;
+	position:relative;
+	background:url(dist/images/voyseJumbo.jpg) no-repeat top center;
+	background-size:cover;
+	color:#fff;
+	padding-bottom:100px;
+	margin-bottom:100px;
+	top:-100px;
+}
+
+#top #lower {
+	position:relative;
+	z-index:2;
+	text-align:center;
+}
+
+#lower {
+	top:63%;
+	margin-left:35%;
+}
+
+.inner {
+	width:70%;
+	margin:0 auto;
+}
+
+.cover {
+	background:rgba(94,44,143,.45);
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:1;
+}
+
+.blurb {
+	text-align:center;
+	z-index:20;
+	margin-bottom:25px;
+}
+
+.container .blurb p {
+	color:rgba(94,94,94,1);
+}
+
+.title {
+	font-size:1.5em;
+	font-weight:200;
+}
+
+.title2 {
+	font-size:1.5em;
+	font-weight:200;
+}
+
+#top #iphone {
+	left:20%;
+	top:300px;
+	bottom:-120px;
+	height:650px;
+	position:absolute;
+	width:320px;
+	margin:0 0 0 -151px;	
+}
+
+#top #iphone .shadow,#top #iphone .phone {
+	position:absolute;
+	left:50%;
+	margin:0 0 0 -160px;
+}
+
+#top #iphone .shadow-wrap {
+	height:524px;
+	width:100%;
+	overflow-y:hidden;
+	position:absolute;
+}
+
+#top #iphone .shadow {
+	z-index:1;
+}
+
+#top #iphone .phone {
+	z-index:2;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+#footer {
+	margin-top:20px;
+	bottom:0;
+	width:100%;
+/* Set the fixed height of the footer here */
+	height:60px;
+	background-color:rgba(36,36,51,1);
+	text-align: center;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+.container .text-muted {
+	margin:20px 0;
+}
+
+/* Media Queries
+-------------------------------------------------- */
+@media (max-device-width: 740px) {
+	#top #iphone {
+		left:50%;
+		top:35%;
+	}
+	
+	#lower {
+		top:10%;
+	}
+	
+	.inner {
+		width:70%;
+		margin:0 auto;
+	}
+	
+	#top #lower {
+		left:auto;
+		margin-left:auto;
+	}
+	
+	.inner .animated h2 {
+		margin-top:100px;
+	}
+	
+}
+
+@media (max-width: 740px) {
+	#top #iphone {
+		left:50%;
+		top:35%;
+	}
+	
+	#lower {
+		top:10%;
+	}
+	
+	.inner {
+		width:70%;
+		margin:0 auto;
+	}
+	
+	#top #lower {
+		left:auto;
+		margin-left:auto;
+	}
+	
+	.inner .animated h2 {
+		margin-top:100px;
+	}
+}
+
+@media (max-width: 520px) {
+	
+	.title {
+		display:none;
+	}
+	
+	.container .terms h2 {
+		margin-top:20px;
+	}
+	
+	.inner .animated h2 {
+		margin-top:100px;
+	}
+}
+
+@media (max-device-width: 520px) {
+
+
+	
+	.title {
+		display:none;
+	}
+	
+	.container .terms h2 {
+		margin-top:20px;
+	}
+	
+	.inner .animated h2 {
+		margin-top:100px;
+	}
+}
